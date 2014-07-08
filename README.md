@@ -28,7 +28,7 @@ MaxConcurrentCalls -  maximum number of concurrent calls to the callback the mes
 
 Perfmon Counter
 ===============
-The tool adds a perfmon counter (ServiceBusTestCategory | # operations / sec). This counter logs one operation for a write and two operations for a read (read and commit).
+The tool adds a perfmon counter (ServiceBusTestCategory | # operations / sec). This counter logs one operation for a write and two operations for a read (read and commit). This allows you to use perfmon.exe to get a good idea of the queue performance.
 
 
 Sample Command Line Setups
