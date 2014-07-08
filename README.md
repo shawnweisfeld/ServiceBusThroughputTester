@@ -26,6 +26,11 @@ Partioned - should this queue be Partioned
 MaxConcurrentCalls -  maximum number of concurrent calls to the callback the message pump should initiate
 
 
+Perfmon Counter
+===============
+The tool adds a perfmon counter (ServiceBusTestCategory | # operations / sec). This counter logs one operation for a write and two operations for a read (read and commit).
+
+
 Sample Command Line Setups
 ==========================
 
